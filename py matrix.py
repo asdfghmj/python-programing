@@ -1,4 +1,4 @@
-# identify if matrix is symmetry take input from user for size mxn of matrix and also matrix values and also check if no column is equal to number of row (write the code in minium lines)
+# identify if matrix is symmetry take input from user for size mxn of matrix and also matrix values and also check if no column is equal to number of row
 
 def is_symmetric(matrix):
   return all(matrix[i][j] == matrix[j][i] for i in range(len(matrix)) for j in range(i + 1, len(matrix[0])))
