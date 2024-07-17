@@ -1,0 +1,60 @@
+# Arithmetic operations
+num1 = 10
+num2 = 5
+
+print("Addition:", num1 + num2)
+print("Subtraction:", num1 - num2)
+print("Multiplication:", num1 * num2)
+print("Division:", num1 / num2)
+print("Floor Division:", num1 // num2)
+print("Modulus:", num1 % num2)
+print("Exponentiation:", num1 ** num2)
+
+# Comparison operations
+print("Equal to:", num1 == num2)
+print("Not equal to:", num1 != num2)
+print("Greater than:", num1 > num2)
+print("Less than:", num1 < num2)
+print("Greater than or equal to:", num1 >= num2)
+print("Less than or equal to:", num1 <= num2)
+
+# Logical operations
+bool1 = True
+bool2 = False
+
+print("Logical AND:", bool1 and bool2)
+print("Logical OR:", bool1 or bool2)
+print("Logical NOT:", not bool1)
+
+# Bitwise operations (example with integers)
+num3 = 12  # Binary: 1100
+num4 = 5   # Binary: 0101
+
+print("Bitwise AND:", num3 & num4)  # Output: 4 (Binary: 0100)
+print("Bitwise OR:", num3 | num4)   # Output: 13 (Binary: 1101)
+print("Bitwise XOR:", num3 ^ num4)   # Output: 9 (Binary: 1001)
+print("Bitwise NOT (num3):", ~num3) # Output: -13 (Two's complement)
+print("Left Shift (num3 by 2):", num3 << 2)  # Output: 48 (Binary: 110000)
+print("Right Shift (num3 by 2):", num3 >> 2)  # Output: 3 (Binary: 0011)
+
+# Assignment operations
+x = 10
+x += 5  # Equivalent to x = x + 5
+print("x after +=:", x)
+
+y = 15
+y -= 3  # Equivalent to y = y - 3
+print("y after -=:", y)
+
+# Membership operations
+my_list = [1, 2, 3, 4]
+print("3 is in my_list:", 3 in my_list)
+print("5 is not in my_list:", 5 not in my_list)
+
+# Identity operations
+a = [1, 2, 3]
+b = [1, 2, 3]
+c = a
+
+print("a is b:", a is b)  # False (different objects)
+print("a is c:", a is c)  # True (same object)
